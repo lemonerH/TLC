@@ -1,6 +1,46 @@
-# 打车软件
+# 下一站去哪
 
 ---
+
+## 目录结构
+
+```
+│  .gitignore
+│  README.md
+│  纽约出租车.ipynb
+│  
+├─data
+│  ├─clear
+│  │      new_yellow_tripdata_2019-01.csv
+│  │      ...
+│  │      new_yellow_tripdata_2020-06.csv
+│  │      
+│  ├─diff
+│  │      2019-01.csv
+│  │      ...
+│  │      2020-06.csv
+│  │      
+│  ├─dist
+│  │      2019-01.csv
+│  │      ...
+│  │      2020-06.csv
+│  │      
+│  ├─model
+│  │      diff.csv
+│  │      dist.csv
+│  │      graph.npy
+│  │      
+│  └─raw
+|         yellow_tripdata_2019-01.csv
+|         ...
+│         yellow_tripdata_2020-06.csv
+│          
+└─graph
+        heatmap.html
+        heatmap_all.html
+        heatmap_diff.html
+        predict.html
+```
 
 ## 注意事项
 
