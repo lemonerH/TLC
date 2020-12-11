@@ -28,6 +28,31 @@
 ├─graph/    # 保存图片
 ```
 
+## 数据分析
+
+对profiling（2020-06）得到的报告进行分析
+
+|变量|含义|类型|待处理|
+|:-|:-|:-|:-|
+|VendorID|记录提供商|Categorical|缺省9.2%|
+|tpep_pickup_datetime|上车时间|Datetime||
+|tpep_dropoff_datetime|下车时间|Datetime||
+|passenger_count|乘客数量|Categorical Number|缺省9.2%，零值2.4%|
+|trip_distance|打车距离|Contiguous Number|零值3.2%，存在异常值(极大值)|
+|RatecodeID|价格代码|Categorical Number|缺省9.2%|
+|store_and_fwd_flag|是否保存在车辆内存中|Boolean|缺省9.2%|
+|PULocationID|上车区域ID|Categorical Number||
+|DOLocationID|下车区域ID|Categorical Number||
+|payment_type|支付类别|Categorical Number|缺省9.2%|
+|fare_amount|距离计价|Contiguous Number|存在异常值(负值，极大值)|
+|extra|附加费|Contiguous Number|零值47.8%(正常)|
+|mta_tax|交通税|Categorical Number|两类|
+|tip_amount|小费|Contiguous Number|零值41.0%(正常)|
+|tolls_amount|过路费|Contiguous Number|零值94.7%(正常)，存在异常值(极大值)|
+|improvement_surcharge|改善附加费|Categorical Number|两类，存在异常值(负值)|
+|total_amount|总费用|Contiguous Number|存在异常值(负值，极大值)|
+|congestion_surcharge|拥挤附加费|Categorical Number|两类，存在异常值(负值)|
+
 ## 目录结构
 
 ```shell
