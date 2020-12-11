@@ -33,35 +33,35 @@
 ```shell
 │  .gitignore
 │  README.md
-│  纽约出租车.ipynb
+│  纽约出租车.ipynb                             # 代码主notebook
 │  
-├─data
-│  ├─clear
+├─data                                         # 数据文件夹
+│  ├─clear                                     # 清洗后数据集
 │  │      new_yellow_tripdata_2019-01.csv
 │  │      ...
 │  │      new_yellow_tripdata_2020-06.csv
 │  │      
-│  ├─diff
+│  ├─diff                                      # 上下车差值
 │  │      2019-01.csv
 │  │      ...
 │  │      2020-06.csv
 │  │      
-│  ├─dist
+│  ├─dist                                      # 区域间距离
 │  │      2019-01.csv
 │  │      ...
 │  │      2020-06.csv
 │  │      
-│  ├─model
+│  ├─model                                     # 模型
 │  │      diff.csv
 │  │      dist.csv
 │  │      graph.npy
 │  │      
-│  └─raw
+│  └─raw                                       # 原始数据
 |         yellow_tripdata_2019-01.csv
 |         ...
 │         yellow_tripdata_2020-06.csv
 │          
-└─graph
+└─graph                                        # 图文件
         heatmap.html
         heatmap_all.html
         heatmap_diff.html
