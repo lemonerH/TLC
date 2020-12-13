@@ -10,6 +10,15 @@
 
 <https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page>
 
+你也可以下载我们的数据:
+
+> 百度云
+链接：<https://pan.baidu.com/s/15rmppyfRO_De7Azz16qoPQ>
+提取码：wzs6
+
+> 交大云盘
+链接：<https://jbox.sjtu.edu.cn/l/KnHCvM>
+
 数据描述：
 
 <https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf>
